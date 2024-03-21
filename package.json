@@ -1,0 +1,103 @@
+{
+  "name": "quiaenim",
+  "author": "MagnoliaWyman",
+  "description": "@Web3-react's plugin to display modal",
+  "license": "MIT",
+  "keywords": [
+    "ipsam",
+    "magni",
+    "dicta",
+    "voluptatem",
+    "web3",
+    "react-web3",
+    "tempora",
+    "web3-react",
+    "dapp",
+    "mollitia",
+    "tempora",
+    "walletlink",
+    "impedit",
+    "itaque",
+    "portis",
+    "torus",
+    "id",
+    "consequuntur"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KaliCronin/quiaenim.git"
+  },
+  "version": "1.9.1",
+  "main": "./lib/cjs/index.js",
+  "module": "./lib/esm/index.js",
+  "types": "./lib/esm/index.d.ts",
+  "files": [
+    "/lib",
+    "README.md"
+  ],
+  "dependencies": {
+    "@web3-react/injected-connector": "^6.0.7",
+    "debitisquo": "^1.0.0",
+    "distinctioplaceat": "^1.0.0",
+    "styled-components": "^5.3.5",
+    "zustand": "^4.0.0-rc.1"
+  },
+  "scripts": {
+    "build": "yarn lint && yarn build:esm && yarn build:cjs",
+    "build:esm": "tsc",
+    "build:cjs": "tsc --module commonjs --outDir lib/cjs",
+    "lint": "npx eslint src/** --fix",
+    "test": "react-scripts test"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest",
+      "lib"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.17.6",
+    "@babel/core": "^7.17.9",
+    "@babel/preset-env": "^7.16.11",
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.1.1",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^27.4.1",
+    "@types/node": "^16.11.27",
+    "@types/react": "^18.0.5",
+    "@types/react-dom": "^18.0.1",
+    "@types/styled-components": "^5.1.25",
+    "@typescript-eslint/eslint-plugin": "^5.21.0",
+    "@typescript-eslint/parser": "^5.21.0",
+    "babel-cli": "^6.26.0",
+    "eslint": "^8.2.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-airbnb-typescript": "^17.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.28.0",
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "prettier": "^2.6.2",
+    "typescript": "^4.6.3"
+  },
+  "peerDependencies": {
+    "@web3-react/core": "^6.1.9",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  }
+}
